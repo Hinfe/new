@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/page.css">
+	<link rel="stylesheet" href="css/wangge.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		.header-left input{height: 40px;}
+	</style>
+</head>
+<body style="background-color: #f1f1f1">
+	
+<div class="main-content">
+
+<!-- 导航栏 -->
+<div class="header-fix" style="min-width: 1260px;">
+	<!-- 左侧内容 -->
+	<div class="header-left">
+		<button class="fa fa-bars" id="dis"></button>
+		<div>
+			<p>HINFE</p>
+			<span style="color: #fff;font-size: 5px">FANGZHIJIE</span>
+		</div>
+		<input type="text" placeholder="搜索..." maxlength="30">
+	</div>
+	<!-- 右侧内容 -->
+	<div class="header-right">
+		<div class="down fa fa-angle-down fa-2x"></div>
+		<div class="Admin">
+			<div class="message">
+				<div class="word">
+					<p>Niko!</p>
+					<span>Administrator</span>
+				</div>
+				<span class="mes-img">
+					<img src="img/1.jpg" alt="">
+				</span>
+			</div>
+		</div>
+		<ul class="Select header-right">
+				<li>
+					<i class="email claerbt fa fa-envelope" style="border-right:1px solid #e5e5e5"></i>
+					<span class="noreadem">3</span>
+					<ul class="dropdown-menu menu_email">
+						<div class="notification">你有三条未读信息</div>
+						<li class="email_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>1 小时 以前</p>
+							</div>
+						</li>
+						<li class="email_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>2 小时 以前</p>
+							</div>
+						</li>
+						<li class="email_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>3 小时 以前</p>
+							</div>
+						</li>
+						<div class="notification_bottom bottom_email">查看 全部</div>
+					</ul>
+				</li>
+			</ul>
+			<ul class="Select header-right">
+				<li>
+					<i class="bell claerbt fa fa-bell"></i>
+					<span class="noreadbe">3</span>
+					<ul class="dropdown-menu menu_bell">
+						<div class="notification">你有三条未读信息</div>
+						<li class="bell_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>1 小时 以前</p>
+							</div>
+						</li>
+						<li class="bell_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>2 小时 以前</p>
+							</div>
+						</li>
+						<li class="bell_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>3 小时 以前</p>
+							</div>
+						</li>
+						<div class="notification_bottom bottom_bell">查看 全部</div>
+					</ul>
+				</li>
+			</ul>
+			<ul class="Select header-right">
+				<li>
+					<i class="tasks claerbt fa fa-tasks"></i>
+					<span class="noreadta">3</span>
+					<ul class="dropdown-menu menu_tasks">
+						<div class="notification">你有三条未读信息</div>
+						<li class="tasks_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>1 小时 以前</p>
+							</div>
+						</li>
+						<li class="tasks_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>2 小时 以前</p>
+							</div>
+						</li>
+						<li class="tasks_no">
+							<div class="user_img"></div>
+							<div class="notification_desc">
+								<p>摩纳哥·哥斯拉·美女</p>
+								<p>3 小时 以前</p>
+							</div>
+						</li>
+						<div class="notification_bottom bottom_tasks">查看 全部</div>
+					</ul>
+				</li>
+			</ul>
+	</div>
+</div>
+<!-- 选项单 <-->
+<nav class="disbox">
+	<ul>
+		<li>
+			<a href="yibiaoban.html" class="silde ">
+				<i class="fa fa-home fa-lg nav_icon"></i>
+				<font>仪表板</font>
+			</a>
+		</li>
+		<li>
+			<a class="silde" id="sildetoggle">
+				<i class="fa fa-gears fa-lg nav_icon"></i>
+				<font>组件</font>
+				<span class="nav_num">12</span>
+				<span id="nav_jt" class="fa fa-angle-left"></span>
+			</a>
+			<ul class="disnone">
+				<li><a href="wangge.html">网格系统</a></li>
+				<li><a href="">网格系统</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="huobanyinshua.html" class="silde ">
+				<i class="fa fa-book fa-lg nav_icon"></i>
+				<font>活版印刷</font>
+			</a></li>
+		<li>
+			<a href="shoujianxiang.html" class="silde ">
+				<i class="fa fa-envelope fa-lg nav_icon"></i>
+				<font>收件箱</font>
+				<span class="nav_yebor">99</span>
+			</a></li>
+		<li>
+			<a href="" class="silde ">
+				<i class="fa fa-bar-chart fa-lg nav_icon"></i>
+				<font>图表</font>
+			</a>
+		</li>
+	</ul>
+</nav>
+	<!-- 页面内容 -->
+<div class="page-content" style="min-height: 1111px;">
+	<!-- 网格 -->
+	<h3 class="title">
+		<font>网格系统</font>
+	</h3>
+	<div class="girds">
+		<div class="row col-md-12">
+			<input type="text" class="col-md-12" placeholder=".col-md-12">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-10" placeholder=".col-md-10">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-3" placeholder=".col-md-3">
+			<input type="text" class="col-md-9" placeholder=".col-md-9">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-4" placeholder=".col-md-4">
+			<input type="text" class="col-md-8" placeholder=".col-md-8">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-5" placeholder=".col-md-2">
+			<input type="text" class="col-md-7" placeholder=".col-md-7">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-6" placeholder=".col-md-6">
+			<input type="text" class="col-md-6" placeholder=".col-md-6">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-4" placeholder=".col-md-4">
+			<input type="text" class="col-md-4" placeholder=".col-md-4">
+			<input type="text" class="col-md-4" placeholder=".col-md-4">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-8" placeholder=".col-md-8">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-3" placeholder=".col-md-3">
+			<input type="text" class="col-md-3" placeholder=".col-md-3">
+			<input type="text" class="col-md-3" placeholder=".col-md-3">
+			<input type="text" class="col-md-3" placeholder=".col-md-3">
+		</div>
+		<div class="row">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+			<input type="text" class="col-md-2" placeholder=".col-md-2">
+		</div>
+	</div>
+	<!-- 详细信息 -->
+	<h3 class="title">
+		<font>引导网格详细信息</font>
+	</h3>
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+$(function () {
+	$("#dis").click(function(){
+		if ($(".disbox").css("left")<'0') {
+			$(".disbox").css("left","0");
+			$(".page-content").animate({"width":"82%","margin-left":"307.2"},300)
+		} else {
+			$(".disbox").css("left","-309px");
+			$(".page-content").animate({"width":"96%","margin-left":"0"})
+		}
+	});
+	$("#sildetoggle").click(function(){
+		$(".disnone").stop().slideToggle("slow");
+		$(".fa-angle-left").css("transform","rotateZ(0deg)")
+		if($(".disnone").css('height')>'1') {
+			$(".fa-angle-left").css("transform","rotateZ(0deg)")
+		}else{
+			$(".fa-angle-left").css("transform","rotateZ(-90deg)")
+		}
+		
+	});
+	$(".email").click(function(){
+		if ($(".menu_email").css("display")=='none') {
+			$(".menu_email").stop().fadeIn("fast");
+			$(".menu_bell").stop().fadeOut("fast")
+			$(".menu_tasks").stop().fadeOut("fast")
+		} else {
+			$(".menu_email").stop().fadeOut("fast")
+		}
+	});
+	$(".bell").click(function(){
+		if ($(".menu_bell").css("display")=='none') {
+			$(".menu_bell").stop().fadeIn("fast");
+			$(".menu_email").stop().fadeOut("fast");
+			$(".menu_tasks").stop().fadeOut("fast")
+		} else {
+			$(".menu_bell").stop().fadeOut("fast")
+		}
+	});
+	$(".tasks").click(function(){
+		if ($(".menu_tasks").css("display")=='none') {
+			$(".menu_tasks").stop().fadeIn("fast");
+			$(".menu_email").stop().fadeOut("fast");
+			$(".menu_bell").stop().fadeOut("fast")
+		} else {
+			$(".menu_tasks").stop().fadeOut("fast")
+		}
+	});
+	$(".page-content").click(function () {
+		$(".menu_tasks").stop().fadeOut("fast");
+		$(".menu_email").stop().fadeOut("fast");
+		$(".menu_bell").stop().fadeOut("fast")
+	})
+	$(".bottom_email").click(function(){
+		$(".dropdown-menu").fadeOut("fast")
+		$(".noreadem").fadeOut("fast")
+		$(".email_no").fadeOut("fast")
+	});
+	$(".bottom_bell").click(function(){
+		$(".dropdown-menu").fadeOut("fast")
+		$(".noreadbe").fadeOut("fast")
+		$(".bell_no").fadeOut("fast")
+	});
+	$(".bottom_tasks").click(function(){
+		$(".dropdown-menu").fadeOut("fast")
+		$(".noreadta").fadeOut("fast")
+		$(".tasks_no").fadeOut("fast")
+	});
+})
+</script>
+</body>
+</html>

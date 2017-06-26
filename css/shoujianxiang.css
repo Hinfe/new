@@ -1,0 +1,115 @@
+.title font{
+	font-size: 1.5em;
+	color: #e94e02;
+	margin-bottom: 0.8em;
+	font-weight: 600;
+	
+}
+.row{
+	width: 90%;
+	margin-left: 5%;
+}
+.row h3{
+	color: #A2A0A0;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+.mail-right{
+	float: right;
+	padding-right: 1.5em;
+}
+.chbox{
+	height: 30px;
+	display: inline;
+}
+.box-content{
+	padding: 0.5em 1em;
+	width: 100%;
+	background:#fff;
+}
+.box-content input{
+	float: left;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+.box-content img{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+}
+.user_name{
+	display: inline-block;
+	margin-left: 3%;
+	padding-top: 0.5%;
+	font-size: 1.3em;
+	color: #555;
+}
+.user_content{
+	width: 50%;
+	text-align: center;
+	margin-left: 8%;
+	display: inline-block;
+	padding: 0.5em 0.8em;
+}
+.user_content span{
+	cursor: pointer;
+	font-size: 1.3em;
+	color: orange;
+}
+.box-date{
+	font-size: 1.3em;
+	color: #555;
+	margin-top: 0.5%;
+}
+.box-list{
+	color: #555;
+	margin-top: 0.8%;
+	margin-right: -0.8em;
+}
+.mail-body{
+	display: none;
+	width: 100%;
+	border:1px solid #D4D4D4;
+	margin: 10px 0;
+	padding: 1em 2em;
+}
+.main-body form{
+	box-sizing: border-box;
+}
+.mail-body input{
+	width: 100%;
+	padding: 1em 0;
+	border:none;
+	border-bottom: 1px solid #F5F5F5;
+	transition: 0.5s all;
+	font-size: 1em;
+	outline: none;
+}
+.mail-body input:-moz-placeholder {
+    color: #555;
+    font-size: 1.2em;
+}
+
+.mail-body input::-moz-placeholder {
+    color: #555 ;
+    font-size: 1.2em;
+}
+
+.mail-body input:-ms-input-placeholder{
+    color: #555 ;
+    font-size: 1.2em;
+}
+
+.mail-body input::-webkit-input-placeholder{
+    color: #555 ;
+    font-size: 1.2em;
+}
+.mail-body button{
+	border:none;
+	background:none;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	color: #4F52BA;
+	font-weight: 600;
+
+}
